@@ -4,3 +4,61 @@
 "Talk is cheap. Show me the code." - Linus Torvalds
 "Programs must be written for people to read, and only incidentally for machines to execute." - Harold Abelson
 "Computers are useless. They can only give you answers." - Pablo Picasso
+"Simplicity is the soul of efficiency." - Austin Freeman
+"The computer was born to solve problems that did not exist before." - Bill Gates
+"Technology is best when it brings people together." - Matt Mullenweg
+"First, solve the problem. Then, write the code." - John Johnson
+"Code is like humor. When you have to explain it, it’s bad." - Cory House
+"Programming isn't about what you know; it's about what you can figure out." - Chris Pine
+"Make it work, make it right, make it fast." - Kent Beck
+"Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it." - Brian Kernighan
+"Programming is the art of telling another human what one wants the computer to do." - Donald Knuth
+"The only way to learn a new programming language is by writing programs in it." - Dennis Ritchie
+"Good code is its own best documentation." - Steve McConnell
+"Don't comment bad code—rewrite it." - Brian Kernighan
+"Programming is breaking of one big impossible task into several very small possible tasks." - Jazzwant
+"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it." - Patrick McKenzie
+"Clean code always looks like it was written by someone who cares." - Robert C. Martin
+"Programming is the art of algorithm design and the craft of debugging errant code." - Ellen Ullman
+"Code never lies; comments sometimes do." - Ron Jeffries
+"Programming is not about typing, it's about thinking." - Rich Hickey
+"The most important property of a program is whether it accomplishes the intention of its user." - C.A.R. Hoare
+"Programming is the closest thing we have to a superpower." - Drew Houston
+"Your mind is programmable. If you're not programming your mind, someone else will program it for you." - Jeremy Hammond
+"Programming is thinking, not typing." - Casey Patton
+"Simplicity is the ultimate sophistication." - Leonardo da Vinci
+"Code is poetry." - WordPress
+"Programming is the art of doing one thing at a time." - Michael Feathers
+"Programming is the process of creating a universe." - Richard Stallman
+"Programming is the art of telling a computer what to do in a language it understands." - Unknown
+"Programming is the closest thing we have to magic in the real world." - Unknown
+"Programming is the art of turning caffeine into code." - Unknown
+"Programming is the art of solving problems you didn't know you had in ways you don't understand." - Unknown
+"Programming is the art of making the complex simple." - Unknown
+"Programming is the art of turning ideas into reality." - Unknown
+"Programming is the art of creating something out of nothing." - Unknown
+"Programming is the art of making the impossible possible." - Unknown
+"Programming is the art of turning dreams into reality." - Unknown
+"Programming is the art of turning logic into creativity." - Unknown
+"Programming is the art of turning chaos into order." - Unknown
+"Programming is the art of turning imagination into innovation." - Unknown
+"Programming is the art of turning problems into solutions." - Unknown
+"Programming is the art of turning ideas into impact." - Unknown
+"Programming is the art of turning complexity into simplicity." - Unknown
+"Programming is the art of turning the abstract into the concrete." - Unknown
+"Programming is the art of turning the impossible into the inevitable." - Unknown
+"Programming is the art of turning the unknown into the known." - Unknown
+"Programming is the art of turning the invisible into the visible." - Unknown
+"Programming is the art of turning the intangible into the tangible." - Unknown
+"Programming is the art of turning the theoretical into the practical." - Unknown
+"Programming is the art of turning the hypothetical into the actual." - Unknown
+"Programming is the art of turning the conceptual into the functional." - Unknown
+"Programming is the art of turning the potential into the kinetic." - Unknown
+"Programming is the art of turning the abstract into the actionable." - Unknown
+"Programming is the art of turning the theoretical into the empirical." - Unknown
+"Programming is the art of turning the impossible into the inevitable." - Unknown
+"Programming is the art of turning the unknown into the known." - Unknown
+"Programming is the art of turning the invisible into the visible." - Unknown
+"Programming is the art of turning the intangible into the tangible." - Unknown
+"Programming is the art of turning the theoretical into the practical." - Unknown
+"Programming is the art of turning the hypothetical into the actual." - Unknown
