@@ -18,7 +18,7 @@ commandInput.addEventListener('keydown', async (e) => {
         // Execute command and display result
         const result = await commandExecutor.execute(command);
         if (result) {
-            output.innerHTML += `<pre>codex-user@portfolio${result}</pre>`;
+            output.innerHTML += `<pre>codex-user@portfolio(⁠☞ﾟ⁠ヮﾟ⁠)⁠☞${result}</pre>`;
         }
         
         commandInput.value = '';
