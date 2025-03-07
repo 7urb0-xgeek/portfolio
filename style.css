@@ -1,3 +1,4 @@
+/* General Reset */
 * {
   padding: 0;
   margin: 0;
@@ -11,24 +12,67 @@
   color: #2c3539;
 }
 
+/* Body Styling */
 body {
   background-color: #2c3539;
   color: #d3d3d3;
   font-size: 15px;
   font-weight: 300;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.main-container {
-  height: fit-content;
+/* Terminal Container */
+.terminal-container {
+  width: 80%;
+  max-width: 800px;
+  background-color: #1e1e1e;
+  border-radius: 5px;
   padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.ascii-name {
-  color: #fbcb0a;
-  font-size: 0.7vw;
-  margin-top: 15px;
+/* Terminal Content */
+.terminal-content {
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #444;
+  background-color: #2c3539;
+  color: #d3d3d3;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
+/* Input Line */
+.input-line {
+  display: flex;
+  align-items: center;
+}
+
+.prompt {
+  color: #00ffab;
+  margin-right: 10px;
+}
+
+.command-input {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #d3d3d3;
+  font-size: 14px;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.command-input:focus {
+  outline: none;
+}
+
+/* Additional Styling for Dynamic Content */
 .message-text {
   font-size: 16px;
   font-weight: 300;
@@ -46,32 +90,6 @@ body {
   padding-left: 20px;
 }
 
-.input-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.input-label {
-  color: #fbcb0a;
-}
-
-.input-command {
-  width: 100%;
-  padding: 10px 0;
-  border: none;
-  outline: none;
-  background-color: transparent;
-  color: #fff;
-  font-weight: 400;
-  font-size: 16px;
-  margin-left: 10px;
-}
-
-.input-text {
-  color: #00ffab;
-}
-
 .command-not-found {
   font-size: 17px;
   color: #ff0032;
@@ -84,6 +102,7 @@ body {
   text-transform: lowercase;
   color: #fbcb0a;
 }
+
 .data-dd {
   margin-top: 5px;
   margin-left: 20px;
@@ -119,4 +138,26 @@ body {
   text-decoration-style: solid;
   color: #fbcb0a;
   cursor: pointer;
+}
+
+.data-link:hover {
+  text-decoration: underline;
+}
+
+/* Scrollbar Styling */
+.terminal-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.terminal-content::-webkit-scrollbar-track {
+  background: #2c3539;
+}
+
+.terminal-content::-webkit-scrollbar-thumb {
+  background: #00ffab;
+  border-radius: 4px;
+}
+
+.terminal-content::-webkit-scrollbar-thumb:hover {
+  background: #00cc88;
 }
