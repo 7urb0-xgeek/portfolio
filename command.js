@@ -80,17 +80,17 @@ exit       - Close the terminal
     }
 
     async #getAbout() {
-        const response = await fetch('about.txt');
+        const response = await fetch('assets/about.txt');
         return await response.text();
     }
 
     async #getProjects() {
-        const response = await fetch('projects.txt');
+        const response = await fetch('assets/projects.txt');
         return await response.text();
     }
 
     async #getRandomQuote() {
-        const response = await fetch('quotes.txt');
+        const response = await fetch('assets/quotes.txt');
         const quotes = (await response.text()).split('\n').filter(q => q.trim());
         const randomIndex = Math.floor(Math.random() * quotes.length);
         return quotes[randomIndex] || "No quotes available";
