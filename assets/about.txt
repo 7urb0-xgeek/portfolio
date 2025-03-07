@@ -1,0 +1,10 @@
+John Doe - Full Stack Developer
+
+Experienced developer with 5+ years in web development.
+Specializing in JavaScript, Python, and cloud technologies.
+
+Skills:
+- Frontend: React, Vue, HTML5/CSS3
+- Backend: Node.js, Django, REST APIs
+- Databases: PostgreSQL, MongoDB
+- DevOps: Docker, AWS, CI/CD
