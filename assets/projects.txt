@@ -1,0 +1,13 @@
+My Projects:
+
+1. E-commerce Platform (2023)
+   - Full-stack e-commerce solution with React & Node.js
+   - Features: Payment integration, product management
+
+2. AI Chatbot (2022)
+   - NLP-powered customer service chatbot
+   - Technologies: Python, TensorFlow, Dialogflow
+
+3. Portfolio CMS (2021)
+   - Custom CMS for artist portfolios
+   - Stack: Django, PostgreSQL, AWS
