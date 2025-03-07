@@ -56,13 +56,13 @@ body {
 
 .prompt {
     margin-right: 10px;
-    color: #00ff00;
+    color: #00FFFF;
 }
 
 .command-input {
     background-color: transparent;
     border: none;
-    color: #00ff00;
+    color: #00FFFF;
     font-family: 'Courier New', monospace;
     font-size: 1em;
     width: 100%;
