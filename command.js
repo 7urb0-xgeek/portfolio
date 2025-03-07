@@ -2,9 +2,9 @@ export class CommandExecutor {
     constructor(outputElement) {
         this.output = outputElement;
         this.socialLinks = {
-            github: 'https://github.com/yourusername',
-            email: 'mailto:contact@example.com',
-            telegram: 'https://t.me/yourtelegram',
+            github: 'https://github.com/codexart-lab',
+            email: 'mailto: atmostechnexa@gmail.com',
+            telegram: 'https://t.me/pheonixion',
             instagram: 'https://instagram.com/yourinstagram',
             website: 'https://yourportfolio.com',
             matrix: 'https://matrix.to/#/@matrixuser:matrix.org'
@@ -138,7 +138,7 @@ exit       - Close the terminal
     }
 
     #whoami() {
-        return "guest-user@terminal-portfolio";
+        return "codex-user@portfolio";
     }
 
     #clearScreen() {
