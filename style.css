@@ -19,14 +19,16 @@ body {
 }
 
 .terminal-container {
-    width: 100%;
-    height: 100%;
+    width: 80%; /* Adjust width for desktop */
+    max-width: 1200px; /* Max width for larger screens */
+    height: 80%; /* Adjust height for desktop */
+    background-color: #1e1e1e; /* Dark grey terminal background */
+    border-radius: 5px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background-color: #1e1e1e; /* Dark grey terminal background */
-    border-radius: 5px;
-    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
 }
 
 .terminal-content {
