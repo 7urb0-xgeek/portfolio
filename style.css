@@ -19,9 +19,9 @@ body {
 }
 
 .terminal-container {
-    width: 80%; /* Adjust width for desktop */
+    width: 120%; /* Adjust width for desktop */
     max-width: 1200px; /* Max width for larger screens */
-    height: 80%; /* Adjust height for desktop */
+    height: 90%; /* Adjust height for desktop */
     background-color: #1e1e1e; /* Dark grey terminal background */
     border-radius: 5px;
     padding: 20px;
