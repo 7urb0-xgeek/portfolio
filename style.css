@@ -64,12 +64,12 @@ body {
 
 .command-input {
   background-color: transparent;
-    border: none;
-    color: #00FFFF;
-    font-family: 'Courier New', monospace;
-    font-size: 1em;
-    width: 100%;
-    outline: none;
+  border: none;
+  color: #00FFFF;
+  font-family: 'Courier New', monospace;
+  font-size: 1em;
+   width: 100%;
+   outline: none;
   }
 
 /* Additional Styling for Dynamic Content */
