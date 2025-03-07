@@ -6,7 +6,7 @@ export class CommandExecutor {
             email: 'mailto: atmostechnexa@gmail.com',
             telegram: 'https://t.me/pheonixion',
             instagram: 'https://instagram.com/yourinstagram',
-            website: 'https://yourportfolio.com',
+            website: 'https://7urb0-xgeek.github.io/portfolio/',
             matrix: 'https://matrix.to/#/@matrixuser:matrix.org'
         };
     }
