@@ -13,12 +13,12 @@ commandInput.addEventListener('keydown', async (e) => {
         historyIndex = commandHistory.length;
         
         // Display command
-        output.innerHTML += `<div class="input-line"><span class="prompt">$</span> ${command}</div>`;
+        output.innerHTML += `<div class="input-line"><span class="prompt">$</span> codex-user@portfolio➢${command}</div>`;
         
         // Execute command and display result
         const result = await commandExecutor.execute(command);
         if (result) {
-            output.innerHTML += `<pre>codex-user@portfolio(⁠☞ﾟ⁠ヮﾟ⁠)⁠☞${result}</pre>`;
+            output.innerHTML += `<pre>codex-user@portfolio➢➢${result}</pre>`;
         }
         
         commandInput.value = '';
