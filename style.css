@@ -63,18 +63,14 @@ body {
 }
 
 .command-input {
-  flex: 1;
   background-color: transparent;
-  border: none;
-  outline: none;
-  color: #d3d3d3;
-  font-size: 14px;
-  font-family: "IBM Plex Mono", monospace;
-}
-
-.command-input:focus {
-  outline: none;
-}
+    border: none;
+    color: #00FFFF;
+    font-family: 'Courier New', monospace;
+    font-size: 1em;
+    width: 100%;
+    outline: none;
+  }
 
 /* Additional Styling for Dynamic Content */
 .message-text {
