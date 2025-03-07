@@ -51,6 +51,10 @@ body {
 .input-line {
   display: flex;
   align-items: center;
+  padding: 10px 0;
+  position: sticky;
+  bottom: 0;
+  background-color: #1e1e1e; /* Match terminal background
 }
 
 .prompt {
