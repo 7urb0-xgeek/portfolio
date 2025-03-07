@@ -8,7 +8,7 @@
 /* Full-screen terminal */
 body {
     background-color: #2d2d2d; /* Grey background */
-    color: #00ff00; /* Green text */
+    color: #00FFFF; /* Cyan text */
     font-family: 'Courier New', monospace;
     height: 100vh;
     display: flex;
