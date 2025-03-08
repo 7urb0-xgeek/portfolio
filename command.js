@@ -30,8 +30,8 @@ export class CommandExecutor {
                     return this.#openSocialLink('instagram');
                 case 'website':
                     return this.#openSocialLink('website');
-                case 'matrix':
-                    return this.#startMatrixEffect();
+                case 'calculator':
+                    return this.#calculate(args.join(' '));
                 case 'projects':
                     return await this.#getProjects();
                 case 'time':
@@ -67,7 +67,7 @@ email      - Open email client
 telegram   - Open Telegram profile
 instagram  - Open Instagram profile
 website    - Open portfolio website
-matrix     - Start Matrix effect
+calc       - Perform basic calculations
 projects   - List my projects
 time       - Show current time
 date       - Show current date
@@ -102,27 +102,23 @@ exit       - Close the terminal
         return `Opening ${platform}...`;
     }
 
-    #startMatrixEffect() {
-        const matrixContainer = document.createElement('div');
-        matrixContainer.classList.add('matrix-effect');
-        document.body.appendChild(matrixContainer);
+    #calculate(expression) {
+    try {
+        // Remove all whitespace from the expression
+        expression = expression.replace(/\s+/g, '');
 
-        const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-        const columns = Math.floor(window.innerWidth / 20);
-
-        for (let i = 0; i < columns; i++) {
-            const span = document.createElement('span');
-            span.style.left = `${i * 20}px`;
-            span.style.animationDuration = `${Math.random() * 2 + 1}s`;
-            span.textContent = chars[Math.floor(Math.random() * chars.length)];
-            matrixContainer.appendChild(span);
+        // Validate the expression (only numbers and +, -, *, / are allowed)
+        if (!/^[\d+\-*/.]+$/.test(expression)) {
+            return "Invalid expression. Only numbers and +, -, *, / are allowed.";
         }
 
-        setTimeout(() => {
-            document.body.removeChild(matrixContainer);
-        }, 5000); // Stop after 5 seconds
-
-        return "Entering the Matrix...";
+        // Evaluate the expression
+        const result = eval(expression); // Using eval for simplicity (be cautious in production)
+        return `Result: ${result}`;
+    } catch (error) {
+        return "Error: Invalid expression. Please check your input.";
+    }
+    }
     }
 
     #getTime() {
